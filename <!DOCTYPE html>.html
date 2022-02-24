@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--import external css file-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--my javascript codes-->
+    <script src="script.js"></script>
+
+    <title>ATM</title>
+</head>
+
+<body>
+    <div class="buttonSection"> <!-- putting a different div class so I can easly can organize in css-->
+        <div style="color: rgba(255, 255, 255, 0.801);">
+            <b>
+                <h1>MntBank</h1>
+            </b>
+            <b>Welcome!</b>
+           <br>
+           <!--First we click the button to show our balance so we can make a transaction.-->
+        <h6>(First please click the 'My Balance' button to learn your avaliable balance.)</h6>
+        </div>
+
+        <div class="resultt">
+            <!-- created new onclick name because we will use stabil amount of money (2000) -->
+            <div style="font-family: monospace; font-size: 15px;" onclick="moneym()">Amount of your money:</div> <span
+                id="Balance"></span> <br><br>
+            <div style="font-family: monospace;">Your avaliable balance:</div> <span id="result"></span> 
+        </div>
+          <!-- When we click My balance button the function give the same result as it did in 'Amount of your money' section-->
+        <button id="bakiyem" onclick="moneym()">My Balance</button>
+        <button id="b1" onclick="insert(1)">1</button>
+        <button id="b2" onclick="insert(2)">2</button>
+        <button id="b3" onclick="insert(3)">3</button>
+        <!-- Create an operation that named assignOperation so we can do four operations-->
+        <button id="paracek" onclick="assignOperation('paracek')">Withdraw</button><br>
+
+        <button id="paytax" onclick="assignOperation('paytax')">Pay tax</button>
+        <button id="b4" onclick="insert(4)">4</button>
+        <button id="b5" onclick="insert(5)">5</button>
+        <button id="b6" onclick="insert(6)">6</button>
+        <button id="parayatir" onclick="assignOperation('parayatir')">Deposit</button> <br>
+
+        <button id="transfer" onclick="assignOperation('transfer')">Transfer</button>
+        <button id="b7" onclick="insert(7)">7</button>
+        <button id="b8" onclick="insert(8)">8</button>
+        <button id="b9" onclick="insert(9)">9</button>
+        <!-- For this button we do not do operations so we create a new function for js.-->
+        <button id="resultt" onclick="calculate()">OK</button><br>
+        <!--Useless button, I created to organize the bottem of the ATM-->
+        <button id="nothing" onclick="nothing()">🙂</button>
+        <button id="b0" onclick="insert(0)">0</button>
+        <button id="sil" onclick="clearResult('sil')">Delete</button><br>
+
+    </div>
+</body>
+
+</html>

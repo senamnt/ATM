@@ -1,0 +1,294 @@
+.buttonSection {
+      display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.801) ;
+    border: 5px solid #000000 ;
+
+}
+
+.resultt {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgb(175, 183, 233);
+}
+
+#b1 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#b2 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#b3 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}#b4 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}#b5 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#b6 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    }
+
+#b7 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#b8 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#b9 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 100%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#b0 {
+    width: 230px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(121, 120, 120, 0.712);
+    border-radius: 25%;
+    border-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#sil {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#result {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#resultt {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#paracek {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#parayatir {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#bakiyem {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 100%;
+    border-color: red;
+    border-width: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#paytax {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#transfer {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#nothing {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: rgb(175, 183, 233);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
